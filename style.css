@@ -1,0 +1,336 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fafafa;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+ol,
+ul,
+dl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrapers {
+  overflow: hidden;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+  max-width: 1337px;
+}
+
+a.navbar-brand {
+  display: flex;
+  width: 130px;
+  padding: 0;
+  margin: 0 !important;
+  align-items: center;
+  margin-right: 40px !important;
+}
+
+a.navbar-brand img {
+  width: 100%;
+}
+
+.nableft {
+  display: flex;
+  align-items: center;
+}
+
+.nableft h3 {
+  color: #ee5a2e;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+ul.navbar-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+a.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: 600;
+}
+
+a.dropdown-toggle > img {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+nav.navbar {
+  background: #fff;
+  margin: 0;
+}
+
+ul.dropdown-menu {
+  background: #ffffff;
+  border-radius: 0;
+  border: 0;
+  width: auto !important;
+  min-width: unset;
+  padding: 8px 0px !important;
+  top: 100% !important;
+  margin: 0;
+}
+
+ul.dropdown-menu li a {
+  font-weight: 600;
+  padding: 5px 15px;
+}
+
+.bodyContainer > .container {
+  max-width: 1066px;
+}
+
+.bodyContainer {
+  padding: 60px 0;
+}
+
+.bootcampTop {
+  border: #fff;
+  box-shadow: 0 0 10px 8px #d3d3d32b;
+  padding: 30px 56px 30px 40px;
+}
+
+.bootcampTrial {
+  display: flex;
+  align-items: center;
+  padding: 26px 0 52px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.bootcampTrial img {
+  display: block;
+  width: 110px;
+}
+
+.bootcampTrial_cont {
+  margin-left: 32px;
+}
+
+.bootcampTrial_cont h3 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+a.redBtn {
+  background: #ee572a;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #ee572a;
+  display: inline-block;
+}
+
+a.redBtn:hover {
+  background: transparent;
+  color: #ee572a;
+}
+
+.your_progress {
+  padding: 35px 0 20px;
+}
+
+.your_progress > h2 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.your_progress > h2 p {
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.checkProgress input {
+  display: none;
+}
+
+.checkProgress label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: #e75625;
+  font-weight: 500;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #e75625;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.checkProgress label i {
+  margin-left: 6px;
+  opacity: 0;
+}
+
+.checkProgress {
+  margin-top: 7px;
+}
+
+.checkProgress input:checked + label {
+  background: #e75625;
+  color: #fff;
+}
+
+.checkProgress input:checked + label i {
+  opacity: 1;
+}
+
+.bootcampBottom {
+  margin-top: 50px;
+}
+
+.bootcampBottom h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.bootcampBottom img {
+  display: block;
+  width: 100%;
+}
+
+a.help {
+  display: inline-block;
+  width: 25px;
+  margin-left: 8px;
+}
+
+a.help img {
+  width: 100%;
+}
+
+.widget_box h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.widget_box {
+  padding: 40px 0 35px 14px;
+}
+
+.widget_box:first-child {
+  padding-top: 20px;
+}
+
+p.jurney {
+  margin: 16px 0 0 0;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+p.jurney span {
+  font-size: 35px;
+  color: #ee572a;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.dualBtn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 26px;
+}
+
+a.lineBtn {
+  display: inline-block;
+  color: #ee572a;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid #ee572a;
+  transition: 0.3s ease all;
+}
+
+a.lineBtn:hover {
+  background: #ee572a;
+  color: #fff;
+  border-color: #ee572a;
+}
+
+.leftContent {
+  padding-right: 0;
+}
+
+.sidebar_widget {
+  padding-left: 18px;
+}
+
+span.border {
+  display: block;
+  width: 80%;
+  height: 1px;
+  background: #ddd;
+}
+
+.widget_box > p {
+  font-size: 16px;
+  color: #606060;
+}
+
+.col-lg-5.rigtCol {
+  width: 37%;
+}
+
+.col-lg-7.leftCol {
+  width: 63%;
+}
