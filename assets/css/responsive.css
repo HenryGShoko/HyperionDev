@@ -1,0 +1,150 @@
+/* Responsive */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/* Responsive */
+
+@media only screen and (max-width: 1450px) {
+   
+}/*  (max-width: 1450px) */
+
+@media only screen and (max-width: 1260px) {
+
+} /*  (max-width: 1260px) */
+
+@media only screen and (max-width: 1100px) {
+
+} /*  (max-width: 1100px) */
+
+@media only screen and (max-width: 1199px) {
+    
+} /* (max-width: 1199px) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+} /*  (min-width: 768px) and (max-width: 991px) */
+
+@media only screen and (max-width: 991px) {
+
+    .col-lg-7.leftCol,
+    .col-lg-5.rigtCol {
+        width: 100%;
+        float: none;
+    }
+    
+    .bootcampTop {
+        padding: 30px 30px 30px 30px;
+    }
+    
+    .bootcampBottom h2 {
+        padding-left: 20px;
+    }
+    
+    .sidebar_widget {
+        padding: 0;
+    }
+    
+    span.border {
+        width: auto;
+        margin: 0 -60px;
+    }
+    
+    .widget_box {
+        padding: 30px 15px;
+    }
+    
+    .sidebar_widget {
+        margin-top: 30px;
+    }
+    
+    .bodyContainer {
+        padding: 40px 0;
+    }
+
+}/*and (max-width: 991px)*/
+    
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+   
+} /* (min-width: 426px) and (max-width: 767px) */
+
+@media only screen and (min-width: 768px) {
+    .mobileText {
+        display: none;
+    }
+}
+      
+@media only screen and (max-width: 767px) {
+
+    .bootcampBottom .row> div:last-child {
+        margin-top: 20px;
+    }
+
+    .bootcampTop {
+        padding: 0px 20px;
+    }
+    
+    .bootcampTrial {
+        padding: 29px 0;
+        align-items: flex-start;
+    }
+    
+    .bootcampTrial img {
+        width: 80px;
+        flex-shrink: 0;
+    }
+    
+    .bootcampTrial_cont {
+        margin-left: 20px;
+    }
+    
+    .bootcampTrial_cont h3 {
+        font-size: 18px;
+        margin: 0 0 10px 10px;
+    }
+
+    .deskText {
+        display: none;
+    }
+
+    a.navbar-brand {
+        margin-right: 10px !important;
+        width: 85px;
+    }
+    
+    .nableft h3 {
+        color: #000;
+        font-size: 14px;
+        font-weight: 700 !important;
+    }
+    
+    .bodyContainer {
+        padding: 20px 0;
+    }
+
+    .bootcampBottom {
+        padding: 0 15px;
+    }
+
+    .bootcampBottom h2 {
+        padding-left: 10px;
+    }
+
+}/* and (max-width: 767px) */
+       
+@media only screen and (max-width: 575px) {
+
+} /* (max-width: 575px) */
+    
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	
+}     /*  (min-width: 320px) and (max-width: 425px) */
+
+@media only screen and (max-width: 480px) {
+
+} /* (max-width: 480px) */
+      
+@media only screen and (max-width: 360px) {
+
+} /* (max-width: 360px)  */
+   
